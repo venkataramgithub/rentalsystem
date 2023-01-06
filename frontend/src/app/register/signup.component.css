@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("../../../assets/bg1.jpeg");
+	margin-top: 80px;
+	padding: 50px;
+	height: 109vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	margin:0px 300px;
+}
+.container .regform{
+	width:700px;
+	align-items: center;
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 3px 5px rgba(0, 0, 0,0.2);
+	border-radius: 10px;
+	background-color: #fff;
+	padding-bottom:20px; 
+
+}
+.container .regform h2{
+	text-align: center;
+	background-color: #14baca;
+	font-family: 'Poppins',sans-serif;
+	font-weight:bolder;
+	color:#fff;
+	padding:8px;
+	margin-bottom: 10px;
+	text-transform:uppercase;
+}
+.container .regform .formfield{
+	margin:5px 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+.container .regform .formfield label{
+	font-size: 16px;
+	text-transform:capitalize;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+.container .regform .formfield input{
+	border:0.5px solid rgba(0, 0, 0, 0.3);
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.container .regform .formfield select{
+	border:0.5px solid rgba(0, 0, 0, 0.3);
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.container .regform .formfield img{
+	width: 20px;
+	height: 20px;
+	position:absolute;
+	margin-top:28px;
+	margin-left: 630px;
+}
+.container .regform button{
+	align-items: center;
+	width:200px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 220px;
+	padding: 5px;
+	background-color: #14baca;
+	font-weight:500;
+	font-size:20px;
+	cursor: pointer;
+}
+.container .regform p{
+	text-align: center;
+	margin:10px 0px;
+	font-size: 14px;
+}

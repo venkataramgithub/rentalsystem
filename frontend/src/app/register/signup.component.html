@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RRent</title>
+</head>
+<body>
+  <section class="container">
+    <div class="regform">
+      <h2>Registration Form</h2>
+      <div class="formfield">
+        <label>Username</label>
+        <input type="text" name="name" [(ngModel)]="register.username" placeholder="Enter Your Name" autocomplete="off">
+      </div>
+      <div class="formfield">
+        <label>Phone No</label>
+        <input type="text" name="phno" [(ngModel)]="register.phoneno" placeholder="Enter Your PhoneNo" autocomplete="off">
+      </div>
+      <div class="formfield">
+        <label>Gender</label>
+        <select [(ngModel)]="register.gender">
+          <option>Select Your Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+      <div class="formfield">
+        <label>Email</label>
+        <input type="email" name="email" [(ngModel)]="register.email" placeholder="Enter Your Email" autocomplete="off">
+      </div><div class="formfield">
+        <label>Password</label>
+        <input type="text" name="password" [(ngModel)]="register.password" placeholder="Enter Your Password"autocomplete="off"><img src="assets/eyeicon.png">
+      </div>
+      <button type="submit" (click)="rentalregister()">Submit</button>
+      <p>Already have an account? <a href="/homepage2/login">login</a></p>
+    </div>
+  </section>
+</body>
+<router-outlet></router-outlet>
