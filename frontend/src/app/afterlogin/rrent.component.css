@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	border:none;
+	outline: none;
+	transition:all 0.2s linear;
+}
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-x:hidden;
+}
+.container{
+	position: fixed;
+	left:0;
+	right:0;
+	top: 0;
+	z-index: 1000;
+	width:100%;
+	border-bottom:10px solid rgba(0,0,0,0.1);
+}
+.navbar{
+	width:100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding:15px 10px;
+	text-align: center;
+	background-color:#14baca;
+}
+.container .navbar .logo{
+	display: flex;
+	text-align: center;
+	width:200px;
+	margin-top:13px;
+	line-height: 30px;
+}
+.container .navbar .logo i{
+	margin:0;
+	border:none;
+	outline: none;
+	font-size:40px;
+	padding-left:60px;
+}
+.container .navbar .logo h2{
+	font-size: 40px;
+	color:#fff;
+	font-family: Times New Roman;
+	transform: capitalize;
+	padding-left: 100px;
+	margin-top:-5px;
+}
+.container .navbar .menu{
+	line-height: 30px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	padding:10px 0px;
+}
+.container .navbar .menu a{
+	padding:0px 15px;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bolder;
+	color:#fff;
+}
+.container .navbar .menu a:hover{
+	color:#ff9700;
+	transition: 0.5s linear;
+	background-color:#24bacd;
+}
+.container .navbar .menu a img{
+	width: 25px;
+	height: 25px;
+}
