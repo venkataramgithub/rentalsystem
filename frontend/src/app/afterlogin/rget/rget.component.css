@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-family: 'Poppins',serif;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	background-image:url("../../../assets/bg1.jpeg");
+	background-size: cover;
+}
+.container{
+	margin: 90px;
+}
+.container .wrapper{
+	padding:30px;
+	margin-left: 200px;
+	width:600px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0,0.2);
+}
+.container .wrapper h2{
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	background:#14abac;
+	color:#fff;
+	font-size: 22px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.container .wrapper .addhome-form{
+	width: 100%;
+	padding:10px 20px;
+	background: #fff;
+}
+.container .wrapper .addhome-form .form-group{
+	padding:5px 0px;
+	display: flex;
+	flex-direction: column;
+}
+.container .wrapper .addhome-form .form-group label{
+	font-size: 16px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+.container .wrapper .addhome-form .form-group input{
+	border:0.5px solid rgba(0, 0, 0, 0.1);
+	font-size: 15px;
+	border-radius: 5px;
+	padding:5px;
+} 
+.container .wrapper .addhome-form button{
+	width:200px;
+	margin-left: 150px;
+	font-weight: bold;
+	font-family: serif;
+	margin-top:10px;
+	font-size: 17px;
+	padding: 5px;
+	cursor: pointer;
+	background: #14abac;
+	border-radius: 5px;
+}
+::placeholder{
+	color:blue;
+}
