@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',serif;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition:all 0.2s linea;
+}
+body{
+	background-image:url("../../../assets/bg3.jpeg");
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+.container{
+	padding: 20px 50px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.houseupload{
+	width: 500px;
+	margin-left: 200px;
+	margin-top: 100px;
+	border-radius: 8px;
+	border-radius: 5px;
+}
+.houseupload h2{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	padding: 5px;
+	color:#fff;
+	background-color: #14abac;
+}
+.form{
+	padding: 10px;
+	margin-top:10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.form .formfield{
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.formfield label{
+	font-family: Arial;
+	font-size: 16px;
+	font-weight:bolder;
+}
+.formfield label span{
+	text-align: right;
+}
+.formfield select{
+	width: 312px;
+	height: 25px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 0.5px solid black;
+}
+.formfield input{
+	width: 313px;
+	height: 20px;
+	color: #333;
+	border-radius: 3px;
+	border: 0.5px solid black;
+	padding: 10px;
+}
+.houseupload button{
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 170px;
+	background-color:#14abac;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.container1{
+	margin:20px 30px;
+}
+.container1 .wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+	gap:30px;
+	justify-content: space-betweeen;
+	align-items: center;
+}
+.container1 .wrapper .box{
+	display: flex;
+	padding: 5px;
+	flex-direction: column;
+	background-color:#eee;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	align-content: center;
+}
+.container1 .wrapper .box img{
+	width:100px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+} 
+.container1 .wrapper .box .content{
+	align-items: center;
+	font-size: 16px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.container1 .wrapper .box .content h4{
+	font-family: verdana;
+	margin-bottom: 10px;
+}
+.container1 .wrapper .box .content p{
+	margin-bottom: 5px;
+}
+.container1 .wrapper .box .userdetail{
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	margin-left: -70px;
+}
+.container1 .wrapper .box .userdetail img{
+	width: 30px;
+	height: 30px;
+}
